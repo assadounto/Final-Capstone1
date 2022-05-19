@@ -150,6 +150,12 @@ li p {
    
 }
 
+
+.psee {
+  display: none;
+}
+
+
 .A {
    width: 30%;
 }
@@ -643,10 +649,27 @@ li p {
       }
       
       .white-text {
-        color: white;
+        color: #ffffff;
       }
       .bg-color {
         background-color: #272a31;
       }
+       
+.psee {
+  display: block;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+  .join {
+    display: none;
+  }
+    .partner {
+      display: none;
+    }  
     
   }
