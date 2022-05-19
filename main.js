@@ -65,8 +65,12 @@ moreButton.addEventListener('click', (event) => {
 window.addEventListener('resize', () => {
   if (window.innerWidth < 768) {
     speakerList.innerHTML = guestSection(2);
+    document.getElementById('partner').style.display = 'none';
+    document.getElementById('footer').style.display = 'none';
   } else {
     speakerList.innerHTML = guestSection(6);
+    document.getElementById('partner').style.display = 'block';
+    document.getElementById('footer').style.display = 'flex';
 
     /* eslint-disable */
  mobileMenu.style.display = 'flex';
@@ -77,7 +81,11 @@ window.addEventListener('resize', () => {
 window.addEventListener('load', () => {
   if (window.innerWidth < 768) {
     speakerList.innerHTML = guestSection(2);
+    document.getElementById('partner').style.display = 'none';
+    document.getElementById('footer').style.display = 'none';
   } else {
     speakerList.innerHTML = guestSection(6);
+    document.getElementById('partner').style.display = 'block';
+    document.getElementById('footer').style.display = 'flex';
   }
 });
