@@ -1,55 +1,27 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Capstone Project
 
-> Description the project.
+> This is a web development project based on behance design
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- html Css Javascript
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://assadounto.github.io/Final-Capstone1/)
 
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
 
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Author**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- GitHub: [@assadounto](https://github.com/assadounto)
+- Twitter: [@richadu](https://twitter.com/richadu)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
@@ -65,7 +37,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Hat tip to anyone whose code was used
-- Inspiration
+- Original design idea by Cindy Shin in <a href="https://www.behance.net/adagio07">Behance</a>
 - etc
 
 ## 📝 License
