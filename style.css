@@ -24,12 +24,12 @@
     position: absolute;
     display: block;
     top: 0;
-    width: 90%;
+    width: 100px;;
     padding: 20px 50px;
     color: #000;
     background: url(img/menu.png);
     background-position: top left;
-    background-size: 10%;
+    background-size: 40%;
     background-repeat: no-repeat;
     height: 40px;
     margin: 20px;
@@ -40,7 +40,8 @@
     margin-top: 0;
     color: rgb(226, 209, 209);
     position: fixed;
-    font-size: 30px;
+    font-size: 20px;
+    cursor: pointer;
   }  
 
 
@@ -54,13 +55,14 @@ display: none;
     flex-direction: column;
     position: fixed;
     list-style: none;
-    background-color: rgb(247, 90, 90);
+    background-color: rgb(66, 73, 67);
     padding: 12px;
     top: 0;
     left: 0;
     width: 100%;
     height: 100vh;
     margin: 0;
+    justify-content: space-around;
   }
 
   .blocks li {
@@ -97,9 +99,7 @@ display: none;
     font-family: 'Cocogoose', sans-serif;
     color: #ec5242;
     font-size: 25px;
-    background-image: url('img/orangeimg.jpg');
     background-repeat: repeat;
-    -webkit-background-clip: text;
 }
 
 .p1 {
@@ -227,12 +227,18 @@ li p {
     margin-top: 10px;
   }
   
+  .arrow {
+    font-size: 18px;
+    color: red;
+    margin-left: 10px;
+  }
   .more-btn {
     width: 80%;
     margin: 0 auto !important;
     border: 1px solid #3d3a3a7c;
     padding: 20px 40px;
     background-color: white;
+    cursor: pointer;
   }
   .parag {
       color: #272a31;
@@ -367,7 +373,34 @@ li p {
     background-color: #fff;
     height: 200px;
   }
+  .footer img {
+    height: 80px;
+  }
+
+  .footer-about {
+    margin-top: 10px;
+    width: 50%;
+  }
+
+  .footer-text {
+    display: flex;
+    flex-direction: column;
+    color: #d3d3d3;
+    font-size: 20px;
+    margin-left: 20px;
   
+  }
+  .footer {
+    display: flex;
+    padding: 30px 40%;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .white-text {
+    color: #272a31;
+  }
+
   @media (min-width: 768px) {
     .logo {
         display: block;
@@ -500,10 +533,7 @@ li p {
         font-family: 'Cocogoose', sans-serif;
         color: #ec5242;
         font-size: 55px;
-        background-image: url('img/orange\ img.jpg');
         background-repeat: repeat;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
       }
     
       .sec-h1-about {
@@ -531,6 +561,7 @@ li p {
         margin: 30px auto;
         background-color: white;
         border: 1px solid #d3d3d3;
+        line-height: 30px;
       }
     
       .contact-us {
