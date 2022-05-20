@@ -18,7 +18,6 @@ body {
   border: 3px solid #ec5242;
   padding: 5px 10px;
   color: #ec5242 !important;
-  
 }
 
 .menu {
@@ -471,7 +470,7 @@ li p {
     text-decoration: none;
     margin: 0 5px;
     font-size: small;
-   display: block;
+    display: block;
   }
 
   #close-btn {
