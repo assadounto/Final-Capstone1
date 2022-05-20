@@ -1,46 +1,46 @@
 const speaker = [
   {
-    name: 'Jack Ma',
-    jobPosition: 'CEO Alibaba ',
-    info: 'Works in technology innovation to bring useful tech to the world',
-    photo: 'img/jackma.jpg',
+    name: 'Yochai Benkler',
+    jobPosition: 'CEO Director Of works ',
+    info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem fugiat quo provident enim harum sapiente explicabo unde earum numquam architecto, libero ad maiores deleniti inventore similique sint velit eius obcaecati.',
+    photo: 'img/a.png',
   },
   {
-    name: 'Bill Gates',
-    jobPosition: 'Founder Microsoft',
-    info: 'Controls the affair of the Microsoft Inc.',
-    photo: 'img/bill.jpg',
+    name: 'Lila Tretikov',
+    jobPosition: 'Founder ',
+    info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem fugiat quo provident enim harum sapiente explicabo unde earum numquam architecto, libero ad maiores deleniti inventore similique sint velit eius obcaecati.',
+    photo: 'img/b.png',
   },
   {
-    name: 'Ariel Camus',
-    jobPosition: 'Founder Microverse',
-    info: 'handles affairs of Microverse',
-    photo: 'img/ariel.png',
+    name: 'Julia Leda',
+    jobPosition: 'Co-Founder Netzen',
+    info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem fugiat quo provident enim harum sapiente explicabo unde earum numquam architecto, libero ad maiores deleniti inventore similique sint velit eius obcaecati.',
+    photo: 'img/c.png',
   },
   {
-    name: 'Elon Musk',
-    jobPosition: 'Founder Tesla',
-    info: 'Works for ministry of Home affairs',
-    photo: 'img/elon.jpg',
+    name: 'SohYeong Noh',
+    jobPosition: 'Founder Director',
+    info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem fugiat quo provident enim harum sapiente explicabo unde earum numquam architecto, libero ad maiores deleniti inventore similique sint velit eius obcaecati.',
+    photo: 'img/d.png',
   },
   {
-    name: 'Larry Page',
-    jobPosition: 'Founder Google',
-    info: 'Sits on and chairs the board of Directors',
-    photo: 'img/larry.jpg',
+    name: 'Kilnam Chan',
+    jobPosition: 'Founder Chocolate',
+    info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem fugiat quo provident enim harum sapiente explicabo unde earum numquam architecto, libero ad maiores deleniti inventore similique sint velit eius obcaecati.',
+    photo: 'img/e.png',
   },
   {
-    name: 'Mark Zukerberg',
-    jobPosition: 'Founder Facebook',
-    info: 'Sits on and chairs the board of Directors',
-    photo: 'img/Mark.jpg',
+    name: 'Ryan Merkley',
+    jobPosition: 'Founder Kyuiy',
+    info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem fugiat quo provident enim harum sapiente explicabo unde earum numquam architecto, libero ad maiores deleniti inventore similique sint velit eius obcaecati.',
+    photo: 'img/f.png',
   },
 ];
 
 function guestSection(count) {
   return speaker.slice(0, count).map((guest) => `
-                            <li class="speaker">
-                            <img src="${guest.photo}" alt="${guest.name}">
+  <li class="speaker">
+                            <div class="tiles"><img src="${guest.photo}" class="tile" alt="${guest.name}"></div>
                             <div class="name">
                               <h3>${guest.name}</h3>
                               <div class="job-position">
@@ -71,6 +71,9 @@ window.addEventListener('resize', () => {
     speakerList.innerHTML = guestSection(6);
     document.getElementById('partner').style.display = 'block';
     document.getElementById('footer').style.display = 'flex';
+    document.getElementById('footer').style.backgroundColor = 'white';
+    document.getElementById('copy').style.color = '#272a31';
+    document.getElementById('copy1').style.color = '#272a31';
 
     /* eslint-disable */
  mobileMenu.style.display = 'flex';
@@ -87,5 +90,8 @@ window.addEventListener('load', () => {
     speakerList.innerHTML = guestSection(6);
     document.getElementById('partner').style.display = 'block';
     document.getElementById('footer').style.display = 'flex';
+    document.getElementById('footer').style.backgroundColor = 'white';
+    document.getElementById('copy').style.color = '#272a31';
+    document.getElementById('copy1').style.color = '#272a31';
   }
 });
