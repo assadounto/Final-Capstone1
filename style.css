@@ -118,12 +118,12 @@ body {
   text-align: center;
 }
 
-.line {
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40px;
-  color: #ec5242;
+.underline {
+  width: 90px;
+  margin: 0 auto;
+  border-bottom: 3px solid #ec5242;
+  margin-bottom: 20px;
+  margin-top: 10px;
 }
 
 .section2 {
