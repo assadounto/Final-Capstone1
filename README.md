@@ -2,14 +2,14 @@
 
 # Capstone Project
 
-> This is a web development project based on behance design
+ This is a web development project based on behance design
 
 
 ## Built With
 
-- html Css Javascript
+- Html Css JavaScript
 
-## Live Demo (if available)
+## Live Demo 
 
 [Live Demo Link](https://assadounto.github.io/Final-Capstone1/)
 
